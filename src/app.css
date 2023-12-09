@@ -6,7 +6,7 @@
         font-family: 'Raleway', sans-serif;
     }
     body{
-        @apply bg-cyan-950
+        @apply bg-slate-900
     }
     .center{
         @apply flex flex-col justify-center items-center text-center
@@ -18,10 +18,10 @@
         @apply text-gray-300 text-4xl
     }
     .box{
-        @apply border-teal-900 border-2 border-opacity-25 mt-5 m-2 p-5 text-gray-300 rounded ;
+        @apply border-slate-500 border-2 mt-5 m-2 p-5 text-gray-300 rounded ;
     }
     .input{
-        @apply text-black bg-teal-900/50 rounded-sm my-3 py-1
+        @apply text-black bg-slate-700 rounded-sm px-1 my-2 py-1
     }
 }
 /* cyan 950, teal 900, sky 950 */
