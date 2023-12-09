@@ -21,7 +21,7 @@
         @apply border-slate-500 border-2 mt-5 m-2 p-5 text-gray-300 rounded ;
     }
     .input{
-        @apply text-black bg-slate-700 rounded-sm px-1 my-2 py-1 text-white
+        @apply  bg-slate-700 rounded-sm px-1 my-2 py-1 text-white
     }
 }
 /* cyan 950, teal 900, sky 950 */
