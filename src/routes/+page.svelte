@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Lesson from '../components/lesson.svelte';
+
+</script>
+<header class="center">
+    <h1>YKS Net Hesaplama</h1>
+    <div class="box">
+        <h3>Aşağıya doğrularınızı ve yanlışlarınızı girebilirsiniz.</h3>
+        <Lesson name="Türkçe" />
+        <Lesson name="Sosyal Bilimler" />
+        <Lesson name="Matematik" />
+        <Lesson name="Fen Bilimleri" />
+    </div>
+</header>
+
